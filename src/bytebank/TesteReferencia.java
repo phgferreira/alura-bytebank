@@ -1,5 +1,7 @@
 package bytebank;
 
+import bytebank.model.Conta;
+
 public class TesteReferencia {
 
 	public static void main(String[] args) {
