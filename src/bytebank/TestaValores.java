@@ -1,4 +1,6 @@
-package bytebank.model;
+package bytebank;
+
+import bytebank.model.Conta;
 
 public class TestaValores {
 

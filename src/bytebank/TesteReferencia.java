@@ -5,7 +5,7 @@ import bytebank.model.Conta;
 public class TesteReferencia {
 
 	public static void main(String[] args) {
-		Conta primeiraConta = new Conta();
+/*		Conta primeiraConta = new Conta();
 		primeiraConta.saldo = 300;
 		
 		System.out.println("saldo da primeira: " + primeiraConta.saldo);
@@ -20,6 +20,6 @@ public class TesteReferencia {
 			System.out.println("são a mesmissima conta");
 		} else {
 			System.out.println("contas diferentes");
-		}
+		}*/
 	}
 }

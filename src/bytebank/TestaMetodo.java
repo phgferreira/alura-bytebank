@@ -5,7 +5,7 @@ import bytebank.model.Conta;
 public class TestaMetodo {
 
 	public static void main(String[] args) {
-		Conta contaDoPaulo = new Conta();
+/*		Conta contaDoPaulo = new Conta();
 		contaDoPaulo.saldo = 100;
 		contaDoPaulo.deposita(50);
 		System.out.println(contaDoPaulo.saldo);
@@ -23,6 +23,6 @@ public class TestaMetodo {
 			System.out.println("Faltou dinheiro");
 		}
 		System.out.println(contaDaMarcela.saldo);
-		System.out.println(contaDoPaulo.saldo);
+		System.out.println(contaDoPaulo.saldo);*/
 	}
 }
