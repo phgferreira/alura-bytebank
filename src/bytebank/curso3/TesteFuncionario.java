@@ -1,10 +1,9 @@
 package bytebank.curso3;
 
-import bytebank.model.Funcionario;
-
 public class TesteFuncionario {
 
 	public static void main(String[] args) {
+		
 //		Funcionario nico = new Funcionario();
 //		nico.setNome("Nico Steppat");
 //		nico.setCpf("223355646-9");
