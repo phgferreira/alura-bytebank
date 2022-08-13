@@ -1,17 +1,17 @@
 package bytebank.model;
 
-public abstract class Autenticavel {
 
-	private int senha;
+// contrato Autenticavel
+	// quem assinar esse contrato, precisa implementar
+		// metodo setSenha
+		// metodo autentica
+
+public abstract interface Autenticavel {
+
+//	private int senha;
 	
-	public boolean autentica(int senha) {
-		if (this.senha == senha)
-			return true;
-		return false;
-	}
+	public abstract boolean autentica(int senha);
 	
-	public void setSenha(int senha) {
-		this.senha = senha;
-	}
+	public abstract void setSenha(int senha);
 
 }
