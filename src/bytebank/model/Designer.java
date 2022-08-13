@@ -1,9 +1,10 @@
 package bytebank.model;
 
-public class EditorVideo extends Funcionario {
+public class Designer extends Funcionario {
 
 	@Override
 	public double getBonificacao() {
-		return 100;
+		return 200;
 	}
+
 }
