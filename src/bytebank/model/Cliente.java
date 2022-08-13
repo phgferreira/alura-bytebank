@@ -2,20 +2,23 @@ package bytebank.model;
 
 public class Cliente implements Autenticavel {
 
-	private int senha;
+	private AutenticacaoUtil autenticador;
+	
+	public Cliente() {
+		this.autenticador = new AutenticacaoUtil();
+
+	}
+	@Override
+	public void setSenha(int senha) {
+		autenticador.setSenha(senha);
+		
+	}
 	
 	@Override
 	public boolean autentica(int senha) {
-		if (this.senha == senha)
-			return true;
-		return false;
+		return autenticador.autentica(senha);
 	}
 
-	@Override
-	public void setSenha(int senha) {
-		this.senha = senha;
-		
-	}
 	
 	
 //	private String nome;
